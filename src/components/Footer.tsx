@@ -5,26 +5,22 @@ import { BookOpen, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-primary-900 text-white pt-16 pb-8">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-          <div>
-            <div className="flex items-center mb-4">
-              <BookOpen className="h-7 w-7 text-accent-400" />
-              <span className="ml-2 text-xl font-bold">ThesisLab</span>
-            </div>
-            <p className="text-primary-100 mb-6">
-              Professional thesis development services to help you achieve academic excellence.
-            </p>
-            <div className="flex space-x-4">
-             
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Linkedin size={20} />
-              </a>
-            </div>
-          </div>
-          
-          <div>
+<div>
+  <div className="flex items-center mb-4">
+    <BookOpen className="h-7 w-7 text-accent-400" />
+    <span className="ml-2 text-xl font-bold">ThesisLab</span>
+  </div>
+  <p className="text-primary-100 mb-6">
+    Professional thesis development services to help you achieve academic excellence.
+  </p>
+  <div className="flex space-x-4">
+   
+    <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" aria-label="LinkedIn">
+      <Linkedin size={20} />
+    </a>
+  </div>
+</div>
+
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3">
               {navLinks.map((link) => (
