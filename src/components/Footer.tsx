@@ -16,17 +16,10 @@ const Footer: React.FC = () => {
               Professional thesis development services to help you achieve academic excellence.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Twitter size={20} />
+             
               </a>
               <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Instagram size={20} />
               </a>
             </div>
           </div>
@@ -63,6 +56,31 @@ const Footer: React.FC = () => {
               <li>
                 <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
                   Research Assistance
+                </a>
+              </li>
+              <li>
+                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
+                 Research Paper Writing
+                </a>
+              </li>
+              <li>
+                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
+                   Review paper writing
+                </a>
+              </li>
+              <li>
+                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
+                   Resume Writing
+                </a>
+              </li>
+              <li>
+                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
+                   Plagiarism services
+                </a>
+              </li>
+              <li>
+                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
+                    Pharmacy projets
                 </a>
               </li>
               <li>
