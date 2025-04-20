@@ -18,9 +18,10 @@ const Footer: React.FC = () => {
             <div className="flex space-x-4">
              
               </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Linkedin size={20} />
+              <a href="#" aria-label="LinkedIn" className="...">
+                 <Linkedin size={20} />
               </a>
+
             </div>
           </div>
           
