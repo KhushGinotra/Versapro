@@ -16,14 +16,21 @@ const Footer: React.FC = () => {
               Professional thesis development services to help you achieve academic excellence.
             </p>
             <div className="flex space-x-4">
-             
-              </a>
               <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
                 <Linkedin size={20} />
               </a>
+              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
+                <Facebook size={20} />
+              </a>
+              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
+                <Twitter size={20} />
+              </a>
+              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
+                <Instagram size={20} />
+              </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-3">
@@ -39,95 +46,51 @@ const Footer: React.FC = () => {
               ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Services</h3>
             <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Thesis Development
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Thesis Editing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Research Assistance
-                </a>
-              </li>
-              <li>
-                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
-                 Research Paper Writing
-                </a>
-              </li>
-              <li>
-                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
-                   Review paper writing
-                </a>
-              </li>
-              <li>
-                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
-                   Resume Writing
-                </a>
-              </li>
-              <li>
-                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
-                   Plagiarism services
-                </a>
-              </li>
-              <li>
-                <a  href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300" >
-                    Pharmacy projets
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Academic Consultation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Literature Review
-                </a>
-              </li>
+              {[
+                'Thesis Development',
+                'Thesis Editing',
+                'Research Assistance',
+                'Research Paper Writing',
+                'Review Paper Writing',
+                'Resume Writing',
+                'Plagiarism Services',
+                'Pharmacy Projects',
+                'Academic Consultation',
+                'Literature Review',
+              ].map((service) => (
+                <li key={service}>
+                  <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
+                    {service}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-3">
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Academic Blogs
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Thesis Guidelines
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Research Methods
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  Writing Tips
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                  FAQs
-                </a>
-              </li>
+              {[
+                'Academic Blogs',
+                'Thesis Guidelines',
+                'Research Methods',
+                'Writing Tips',
+                'FAQs',
+              ].map((resource) => (
+                <li key={resource}>
+                  <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
+                    {resource}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-primary-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-200 text-sm mb-4 md:mb-0">
