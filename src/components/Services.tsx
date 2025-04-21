@@ -32,9 +32,6 @@ const Services: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold text-primary-900 mb-3">{service.title}</h3>
               <p className="text-neutral-600">{service.description}</p>
-              <a href="#" className="inline-block mt-4 text-accent-500 font-medium hover:text-accent-600 transition-colors duration-300">
-                Learn more
-              </a>
             </div>
           ))}
         </div>
