@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <BookOpen className="h-8 w-8 text-primary-900" />
-            <span className="ml-2 text-lg font-bold text-primary-900">VersaPRO</span>
+            <span className="ml-2 text-lg font-bold text-primary-900">VersaPRO Services</span>
           </div>
 
           {/* Desktop Navigation */}
