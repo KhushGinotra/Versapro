@@ -9,7 +9,7 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-primary-900 mb-6">
-              Why Choose VersaPRO For Your Academic Success
+              Why Choose VersaPRO Services For Your Academic Success
             </h2>
             <p className="text-lg text-neutral-600 mb-8">
               We are a team of academic experts dedicated to helping students achieve their thesis goals with precision and excellence. Our approach combines thorough research, critical analysis, and clear communication.
