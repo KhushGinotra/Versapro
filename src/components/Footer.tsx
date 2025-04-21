@@ -16,17 +16,8 @@ const Footer: React.FC = () => {
               Professional thesis development services to help you achieve academic excellence.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
+              <a href="https://www.linkedin.com/in/raj-nashikkar-88808a219?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Instagram size={20} />
               </a>
             </div>
           </div>
