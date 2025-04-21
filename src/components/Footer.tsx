@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <BookOpen className="h-7 w-7 text-accent-400" />
-              <span className="ml-2 text-xl font-bold">ThesisLab</span>
+              <span className="ml-2 text-xl font-bold">VersaPRO</span>
             </div>
             <p className="text-primary-100 mb-6">
               Professional thesis development services to help you achieve academic excellence.
@@ -94,7 +94,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-primary-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-200 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} ThesisLab. All rights reserved.
+              &copy; {new Date().getFullYear()}VersaPRO . All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-primary-200 hover:text-accent-400 text-sm transition-colors duration-300">
