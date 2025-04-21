@@ -22,7 +22,7 @@ const Contact: React.FC = () => {
                 <div>
                   <p className="font-medium mb-1">Email Us</p>
                   <a href="mailto:contact@thesislab.com" className="text-primary-100 hover:text-accent-300 transition-colors duration-300">
-                    contact@thesislab.com
+                    info.versaproservices@gmail.com
                   </a>
                 </div>
               </div>
@@ -32,7 +32,7 @@ const Contact: React.FC = () => {
                 <div>
                   <p className="font-medium mb-1">Call Us</p>
                   <a href="tel:+18001234567" className="text-primary-100 hover:text-accent-300 transition-colors duration-300">
-                    +1 (800) 123-4567
+                    +91 9529496285
                   </a>
                 </div>
               </div>
@@ -42,16 +42,14 @@ const Contact: React.FC = () => {
                 <div>
                   <p className="font-medium mb-1">Visit Us</p>
                   <p className="text-primary-100">
-                    123 Academic Avenue<br />
-                    Research Park, CA 94105
+                    Daund Maharashtra 413801
                   </p>
                 </div>
               </div>
             </div>
             
             <h3 className="text-xl font-semibold mb-4">Operating Hours</h3>
-            <p className="text-primary-100 mb-1">Monday - Friday: 9AM - 6PM</p>
-            <p className="text-primary-100">Saturday: 10AM - 2PM</p>
+            <p className="text-primary-100 mb-1">Monday - Friday: 9AM - 3PM</p>
           </div>
           
           <div className="lg:col-span-3">
