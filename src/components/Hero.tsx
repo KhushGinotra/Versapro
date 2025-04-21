@@ -23,9 +23,6 @@ const Hero: React.FC = () => {
                 Get Free Consultation
                 <ArrowRight size={18} className="ml-2" />
               </button>
-              <button className="flex items-center justify-center bg-white border border-primary-900 text-primary-900 hover:bg-primary-50 font-medium py-3 px-6 rounded-md transition-colors duration-300">
-                Explore Services
-              </button>
             </div>
           </div>
           <div className="order-1 lg:order-2 relative">
