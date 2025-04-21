@@ -60,6 +60,6 @@ export const testimonials = [
 export const stats = [
   { id: "stats-1", value: "3.5K+", title: "Theses Completed" },
   { id: "stats-2", value: "98%", title: "Success Rate" },
-  { id: "stats-3", value: "15+", title: "Years Experience" },
+  { id: "stats-3", value: "4+", title: "Years Experience" },
   { id: "stats-4", value: "24/7", title: "Support" },
 ];
