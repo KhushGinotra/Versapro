@@ -37,13 +37,19 @@ const Services: React.FC = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <p className="text-lg text-neutral-600 mb-6">
-            Need a customized solution for your thesis project?
-          </p>
-          <button className="bg-primary-900 hover:bg-primary-800 text-white font-medium py-3 px-8 rounded-md transition-colors duration-300">
-            Custom Thesis Solutions
-          </button>
-        </div>
+  <p className="text-lg text-neutral-600 mb-6">
+    Need a customized solution for your thesis project?
+  </p>
+  <a
+    href="https://wa.link/eezk26"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="bg-primary-900 hover:bg-primary-800 text-white font-medium py-3 px-8 rounded-md transition-colors duration-300">
+      Custom Thesis Solutions
+    </button>
+  </a>
+</div>
       </div>
     </section>
   );
