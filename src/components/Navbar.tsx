@@ -48,10 +48,6 @@ const Navbar: React.FC = () => {
             ))}
           </ul>
 
-          <button className="hidden md:block bg-accent-500 hover:bg-accent-600 text-white font-medium py-2 px-5 rounded-md transition-colors duration-300">
-            Get Started
-          </button>
-
           {/* Mobile menu button */}
           <button 
             className="md:hidden text-neutral-800"
