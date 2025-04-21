@@ -1,6 +1,6 @@
 import React from 'react';
 import { navLinks } from '../constants';
-import { BookOpen, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { BookOpen, Linkedin, } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -16,17 +16,8 @@ const Footer: React.FC = () => {
               Professional thesis development services to help you achieve academic excellence.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
+              <a href="https://www.linkedin.com/company/versapro-services/" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
                 <Linkedin size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Twitter size={20} />
-              </a>
-              <a href="#" className="text-primary-100 hover:text-accent-400 transition-colors duration-300">
-                <Instagram size={20} />
               </a>
             </div>
           </div>
@@ -94,7 +85,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-primary-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-200 text-sm mb-4 md:mb-0">
-              &copy; {new Date().getFullYear()} ThesisLab. All rights reserved.
+              &copy; {new Date().getFullYear()} VersaPro-Services. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="#" className="text-primary-200 hover:text-accent-400 text-sm transition-colors duration-300">
