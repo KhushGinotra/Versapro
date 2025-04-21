@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <BookOpen className="h-7 w-7 text-accent-400" />
-              <span className="ml-2 text-xl font-bold">VersaPRO</span>
+              <span className="ml-2 text-xl font-bold">VersaPRO Services</span>
             </div>
             <p className="text-primary-100 mb-6">
               Professional thesis development services to help you achieve academic excellence.
