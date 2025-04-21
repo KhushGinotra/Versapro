@@ -36,21 +36,21 @@ export const services = [
 export const testimonials = [
   {
     id: "testimonial-1",
-    content: "ThesisLab transformed my research from average to exceptional. Their attention to detail and expert guidance was invaluable.",
+    content: "VersaPRO transformed my research from average to exceptional. Their attention to detail and expert guidance was invaluable.",
     name: "Sarah K.",
     title: "PhD Candidate, Economics",
     avatar: "https://images.pexels.com/photos/762020/pexels-photo-762020.jpeg?auto=compress&cs=tinysrgb&w=300",
   },
   {
     id: "testimonial-2",
-    content: "Working with ThesisLab was the best decision I made during my master's program. Their support made my thesis stand out.",
+    content: "Working with VersaPRO was the best decision I made during my master's program. Their support made my thesis stand out.",
     name: "Michael T.",
     title: "Master's Graduate, Psychology",
     avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300",
   },
   {
     id: "testimonial-3",
-    content: "Professional, prompt, and precise. ThesisLab elevated my dissertation with their expertise and dedication.",
+    content: "Professional, prompt, and precise. VersaPRO elevated my dissertation with their expertise and dedication.",
     name: "Jennifer R.",
     title: "Doctoral Student, Education",
     avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300",
