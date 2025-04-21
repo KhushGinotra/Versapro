@@ -19,10 +19,16 @@ const Hero: React.FC = () => {
               From concept to completion, we guide you towards excellence.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <button className="flex items-center justify-center bg-accent-500 hover:bg-accent-600 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300">
-                Get Free Consultation
-                <ArrowRight size={18} className="ml-2" />
-              </button>
+              <a 
+              href="https://wa.link/gpfwr5" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              >
+            <button className="flex items-center justify-center bg-accent-500 hover:bg-accent-600 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300">
+            Get Free Consultation
+            <ArrowRight size={18} className="ml-2" />
+            </button>
+            </a>
             </div>
           </div>
           <div className="order-1 lg:order-2 relative">
