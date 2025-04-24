@@ -12,8 +12,9 @@ const Contact: React.FC = () => {
     const message = (document.getElementById('message') as HTMLTextAreaElement).value;
 
     const phoneNumber = '919529496285'; // your WhatsApp number
-    const text = `Name: ${name}%0AEmail: ${email}%0ASubject: ${subject}%0AMessage: ${message}`;
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURI(text)}`;
+    const messageText = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`;
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(messageText)}`;
+
 
     window.open(url, '_blank');
   };
